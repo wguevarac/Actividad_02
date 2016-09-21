@@ -11,41 +11,27 @@
             }
 
 body {
-	margin-top: 20px;
 	background: #DDDDDD;
+	width: 1000px;
+	margin: auto;
+	position: relative;
+
 }
 
-/*p {
-	color: #777;
-	font-size: 16px;
-	font-size: 1.6rem;
-	font-weight: 300;
-}
-
-ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-}
-
-ul li {
-	margin-bottom: 5px;
-}
 
 
 /* *************************************
 * *************** Header ***************
 * ************************************ */
-#main-header {
+header {
 	position: relative;
 	top: 5px;
 	margin: auto;
 	width: 1000px;
-	background-color: #fff;
+	height: 90px;
+	background-color: rgb(0, 102, 128);
 		z-index: 99;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#11000000, endColorstr=#11000000)";
-
-
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(0, 102, 128), endColorstr=rgb(0, 102, 128)";
 	-moz-box-shadow: 0 1px 5px #999;
 	-webkit-box-shadow: 0 1px 5px #999;
 	box-shadow: 0 1px 5px #999;
@@ -53,213 +39,166 @@ ul li {
 
 #main-logo {
 	float: left;
-	height: 80px;
-	padding: 2px 0 0 20px;
-	margin: 0;
-	background-color: rgb(0, 102, 128);
 }
 
-#imagen {
-	float: left;
-	}
-
-#main-logo > a  {
+#main-texto {
+	margin-top: -60px;
 	float: right;
 	text-align: center;
-	font-size: 1em;
-	}
-
-
-#main-logo > a > span {
+	width: 500px;
+}
+#main-texto a  {
 	
-	
-	
+	font-size: 1.5em;
+	font-family: angsa;
+	color: white;
+	text-decoration: none;
 }
 
+/*
 /* *************************************
 * *********** Main Navigation **********
 * ************************************ */
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
+
+nav{
+
+position: relative;
+top: 10px;
+margin: auto;
+width: 1000px;
+height: 50px;
+background: #eee;
+border-radius: 10px;
+
+}
+ul{
+margin: auto;
+padding-top: 10px;
 }
 
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-    display: block;
-}
+li{
 
-.navbar .sub-menu:before {
-    border-bottom: 7px solid transparent;
-    border-left: none;
-    border-right: 7px solid rgba(0, 0, 0, 0.2);
-    border-top: 7px solid transparent;
-    left: -7px;
-    top: 10px;
-}
-.navbar .sub-menu:after {
-    border-top: 6px solid transparent;
-    border-left: none;
-    border-right: 6px solid #fff;
-    border-bottom: 6px solid transparent;
-    left: 10px;
-    top: 11px;
-    left: -6px;
-}
-
-#main-menu {
-	float:right;
-	margin-top: 30px;
-}
-
-#main-menu a {
-	color: #aaa;
-}
-
-#main-menu a:hover {
-	color: #a3d900;
-}
-
-#main-menu.nav-pills>li.active>a, 
-#main-menu.nav-pills>li.active>a:hover, 
-#main-menu.nav-pills>li.active>a:focus,
-#main-menu.nav-pills>li>a:hover {
-	background: none;
-}
-
-#main-menu.nav-pills>li.active>a, 
-#main-menu.nav-pills>li.active>a:hover, 
-#main-menu.nav-pills>li.active>a:focus {
-	color: #a3d900;	
-}
-
-#main-menu.nav .open>a, 
-#main-menu.nav .open>a:hover, 
-#main-menu.nav .open>a:focus {
-	background: none;
-}
-
-
-#mobile-menu-button {
-	float: right;
-	width: 44px;
-	margin: 20px 0;
-}
-
-#mobile-main-menu {
-	display: none;
-}
-
-#mobile-main-menu a {
-	display: block;
-	width: 100%;
-	padding: 10px 0;
-	border-top: 1px solid #eee;
-	color: #aaa;
-	text-align: center;
+	float: left;
+	list-style-type: none;
+	padding: 6px;
+	background:#006680;
+	margin: 3px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px white inset; 
 	text-transform: uppercase;
 }
 
-#mobile-main-menu li {
-	margin: 0;
+li a{
+	font-family: angsa;
+	color: white;
 }
-
-#mobile-main-menu a:hover {
-	color: #fff;
+ul li:hover {
+	color: black;
 	text-decoration: none;
-	background-color: #a3d900;
+	background-color: #F2b80d;
+}
+a:link, a:visited{  
+text-decoration:none;  
+} 
+
+/* *************************************
+* *************** section ***************
+* ************************************ */
+
+section {
+  
+float: left;
+  width: 650px;
+ 
+   margin: 20px;
+
+background: #eee;
+border-radius: 10px;
+ 
+}
+section h1{
+	text-align: center;
+	font-family: angsa;
+
+}
+section h3{
+	
+	font-family: angsa;
+}
+section h2{
+	text-align: center;
+	font-family: angsa;
+}
+section p{
+	text-align: justify;
+	font-family: angsaB;
 }
 
+#imagen{
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+/* *************************************
+* *************** aside ***************
+* ************************************ */
+
+aside{
+float: left;
+  width: 250px;
+   margin: 20px 0px;
+  padding: 20px;
+
+background: #eee;
+border-radius: 10px;
+}
+
+aside h1{
+	text-align: center;
+	font-family: angsa;
+
+}
+aside h3{
+	
+	font-family: angsa;
+}
+aside h2{
+	text-align: center;
+	font-family: angsa;
+}
+aside p{
+	text-align: justify;
+	font-family: angsaB;
+}
 /* *************************************
 * *************** Footer ***************
 * ************************************ */
 footer {
-	padding: 30px 0;
+top: 30px;
+clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
 	background-color: #333;
+
 }
 
-footer a, footer a:hover {
-	color: #fff;
-	font-weight: 400;
-}
 
 footer h3 {
+	font-family: angsab;
 	margin-top: 30px;
 	color: #fff;
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 0.8rem;
+	text-align: center;
 	text-transform: uppercase;
 }
 
 footer p {
-	color: #ddd;
-	font-weight: 200;
-}
-
-#next-workshops a {
-	color: #00BFFF;
-	text-decoration: none;
-}
-
-#next-workshops a:hover {
+font-family: angsa;
+	margin-top: 30px;
 	color: #fff;
-	text-decoration: none;
-}
-
-#subscribe-form input {
-	padding: 0 24px;
-	border: 0;
-
-	color: #ccc;
-	font-size: 16px;
-	font-size: 1.6rem;
-	font-weight: 300;
-	line-height: normal;
-	background-color: #222;
-}
-
-#subscribe-form button {
-	width: 100%;
-	color: #444;
-	background-color: #eee;
-	line-height: 24px;
-	line-height: 2.4rem;
-}
-
-/* *************************************
-* *************** Generales ************
-* ************************************ */
-.btn-custom {
-	border: 0;
-	border-radius: 2px;
-
-	font-size: 14px;
-	font-size: 1.4rem;
-	font-weight: 600;
-}
-/* *************************************
-* *************** Video ************
-* ************************************ */
-
-div.guide {margin:12px 24px;}
-div.guide span {color:#ff0000; font:italic 14px Arial, Helvetica, sans-serif;}
-div.guide p {color:#000000; font:14px Arial, Helvetica, sans-serif;}
-div.guide pre {color:#990000;}
-div.guide p.title {color:#df501f; font:18px Arial, Helvetica, sans-serif;}
-
-
-/* *************************************
-* *************** presentacion ppt ************
-* ************************************ */
-
-
- iframe:focus { 
-    outline: none;
-}
-
-iframe[seamless] { 
-    display: block;
+	font-size: 0.8rem;
+	text-align: center;
+	text-transform: uppercase;
 }

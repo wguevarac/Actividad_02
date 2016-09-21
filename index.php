@@ -12,79 +12,68 @@
 </head>
 <body>
 
-<header id="main-header">
-<div id="main-logo">
-               <div class="imagen"> <img src="img/logo.png"  width="30%"></div>
-				<a href="index.php">OBJETO VIRTUAl DE APRENDIZAJE PARA LA INICIACION EN PAGINAS WEB</a>
-</div>
-</header>
-
-<nav>
-
-				<ul id="main-menu">
-							<li><a href="formaleta.php">Formaleta Metalica</a></li>
-							<li><a href="accesorios.php">Accesorios</a></li>
-							<li><a href="grupo-3.php">Apuntalamiento</a></li>							
-                            <li><a href="grupo-4.php">Consumibles</a></li>
-						    <li><a href="grupo-5.php">Mantenimiento</a></li>
-						
-				  </li>
-                </ul>
-
-</nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--<div id="contenido">
-
 <header>
-<div id="cabecera"
-<hgrupo>
-	<h1>OBJETO VIRTUAl DE APRENDIZAJE PARA LA INICIACION EN PAGINAS WEB</h1>
-	<H2>OVa de aprendizaje Activida Dos</H2>
-</hgrupo>
-</div>	
+    <div id="main-logo"> <img src="img/logo.png"  width="30%"></div>
+	 <div id="main-texto"><a href="index.php">OBJETO VIRTUAl DE APRENDIZAJE PARA LA INICIACION EN PAGINAS WEB</a></div>
 </header>
 
 <nav>
-<div class="menu">
-	<ul>
-		<li>
-			<a href="">Inicio</a>
-			<a href="">Lecturas</a>
-			<a href="">Multimedia</a>
-			<a href="">Actividades</a>
-			<a href="">Autores</a>
-		</li>
+	<ul id="menu">
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">Lecturas</a></li>
+		<li><a href="#">Multimedia</a></li>							
+        <li><a href="#">Actividades</a></li>
+		<li><a href="#">Autores</a></li>
 	</ul>
-</div>	
-</nav>
 
+</nav>
 <section>
-	<article></article>
+	<hgrupo>
+		<H1>Actividad No.2 <br>Creando la Plantilla para un OVA	con	<b>HTML5 y	CSS3</b>.</H1>
+		<H3>Introducion</H3>
+	</hgrupo>
+	<p>A.	
+	
+El	 estudiante	 creará	 un	 sitio	 web	
+utilizando	 lenguajes	 de	 diseño	 como	
+HTML5,	 CSS3	 y	 el	 cual	 servirá	 como	
+plantilla	para	el	diseño	y	publicación	de	
+un	Objeto	Virtual	de	Aprendizaje	OVA,	
+con	base	a	los	parámetros	y	elementos	
+establecidos	 en	 la	 guía	 integrada	 de	
+actividades	del	curso.</p>
+<br>
+<h2>Nueva Plantilla HTML5</h2>
+<BR>
+<div id="imagen"><img src="img/plantilla.png"></div>
+
+
+
 </section>
 
-<aside></aside>
+<aside>
+<hgrupo>
+		<H1>Recomendaciones Hechas Por El Docente:</H1>
+		<H3>Introducion</H3>
+	</hgrupo>
+	<p>Estimados estudiantes el desarrollo de actividades colaborativas en ambientes virtuales de aprendizaje demanda dos características importantes en cada 
+uno de ustedes. <b>La primera es la disciplina</b>, ya que la participación activa en esta actividad demanda una disciplina en el orden de dedicar por lo menos
+unas horas al desarrollo de la actividad y no unos minutos antes del cierre de la misma. <b>La segunda característica hace referencia a la ética</b>  para el
+desarrollo de actividades, ya que ustedes en su rol de estudiantes formándose integralmente deben cumplir ética y moralmente con el desarrollo de las
+actividades, el plagio es un delito y es penalizado por la universidad por lo cual se le invita desde ya a que explote su creatividad, sus ideas y pensamientos
+con productos originales y de su autoría.</p>
+
+</aside>
 
 <footer>
-<p>Propiedad Alumno Wilmar Guevara 19-09-16</p>
+
+   <p> Version inicial para el estudio de la plantilla en html5</p>
+   <h3>Premiera version pagina web<br> ____wilmar guevara cabrera_____20-09-16.</h3>
+
 </footer>
 
 
 
-</div>-->
 </body>
 
 
